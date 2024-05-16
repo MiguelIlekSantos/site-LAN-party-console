@@ -67,10 +67,13 @@
                             <input type="text" id="nome1" required name="Nome1" placeholder="Digite seu nome">
                         </div>
                         <div>
+                            <p for="Numero">Número :</p><br>
+                            <input type="number" id="Numero" required name="Numero" placeholder="Digite seu nome">
+                        </div>
+                        <div>
                             <p for="ano">Ano :</p><br>
                             <select name="ano">
                                 <option value="opção0" selected disabled>Escolha seu ano de ensino</option>
-                                <option value="6ª">6</option>
                                 <option value="7ª">7</option>
                                 <option value="8ª">8</option>
                                 <option value="9ª">9</option>
@@ -88,11 +91,29 @@
                                 <option value="C">C</option>
                                 <option value="D">D</option>
                                 <option value="E">E</option>
+                                <option value="E1">E1</option>
                                 <option value="F">F</option>
                                 <option value="G">G</option>
                                 <option value="H">H</option>
+                                <option value="I">I</option>
                             </select>
                         </div>
+                    </div>
+                    <div>
+                        <label for="games">Escolha os jogos em que pretende competir :</label>
+                        <br>
+                        <br>
+                        <input type="checkbox" name="op1" value="FIFA Street (PS2)" id="op1">
+                        <label for="op1">FIFA Street (PS2)</label>
+                        <br>
+                        <input type="checkbox" name="op2" value="Mario Kart (Wii)" id="op2">
+                        <label for="op1">Mario Kart (Wii)</label>
+                        <br>
+                        <input type="checkbox" name="op3" value="Mortal Kombat (PS4)" id="op3">
+                        <label for="op1">Mortal Kombat (PS4)</label>
+                        <br>
+                        <input type="checkbox" name="op4" value="Puzzle Bobble (Emulador)" id="op3">
+                        <label for="op1">Puzzle Bobble (Emulador)</label>
                     </div>
                     <button id="submit-btn" class="submit-btn" type="submit">Enviar</button>
                     <br>

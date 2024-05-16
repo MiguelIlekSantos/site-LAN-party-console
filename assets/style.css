@@ -269,7 +269,7 @@ main h3,main h1{
     padding: 0px;
 }
 main h1 span{
-    color: rgb(0, 204, 255);
+    color: green;
 }
 form{
     width: 70%;
@@ -468,9 +468,6 @@ footer{
     }
     footer{
         height: 200px;
-    }
-    .email div{
-        width: 100%;
     }
 }
 
